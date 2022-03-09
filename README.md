@@ -1,7 +1,7 @@
 # local-play-bootstrap
 
 ## What is this?
-This repo is intended for SC2 AI bot authors to quickly setup and verify that the arena client docker works for running local bot matches on their system.  
+This repo intends to be a pain-free method for SC2 AI bot authors to quickly setup and verify that the arena client docker works for running local bot matches on their system.  
 This system uses the same docker image that the [SC2 AI Arena ladder](https://aiarena.net) runs on.
 
 ## Prerequisites
@@ -10,8 +10,10 @@ Docker needs to be installed in order to use this bootstrap.
 
 ## Getting started
 
-### Download or clone this repo
-`git clone https://github.com/aiarena/aiarena-docker-bootstrap.git`
+### Download this repo
+![Download this repo](img/download.png)
+
+We recommend against cloning this repo unless you intend to contribute changes.
 
 ### Validating your setup
 
@@ -31,6 +33,9 @@ The script should run a match between the 2 included test bots, as dictated by t
 3. Start the run script to run a match.
 4. View results in the `results` file and replays in the `replays` folder.
 5. For troubleshooting, check the `logs` folder for bot logs or the `client.log` file.
+
+## Contribute
+If you notice issues with setup, or have ideas that might help other bot authors, please feel free to contribute via a pull request.
 
 ## License
 
