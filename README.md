@@ -6,7 +6,9 @@ This system uses the same docker image that the [SC2 AI Arena ladder](https://ai
 
 ## Prerequisites
 
-Docker needs to be installed in order to use this bootstrap.
+This bootstrap requires Docker Compose to run.  
+You can run the `docker-compose` command to check whether it's installed.  
+More information: [How to install Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Getting started
 
