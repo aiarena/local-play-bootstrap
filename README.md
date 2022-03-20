@@ -8,8 +8,11 @@ This system uses the same docker image that the [SC2 AI Arena ladder](https://ai
 
 This bootstrap requires Docker Compose to run.  
 
+
 If you've installed Docker on Windows or MacOS then Docker Compose is already installed.  
 For other systems: [How to install Docker Compose](https://docs.docker.com/compose/install/)
+
+If you're on Linux and don't wish to install docker compose, refer to the [linux-sun.sh](./linux-run.sh) file for how to trigger running of matches.
 
 ## Getting started
 
