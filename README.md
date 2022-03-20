@@ -17,14 +17,14 @@ We recommend against cloning this repo unless you intend to contribute changes.
 
 ### Validating your setup
 
-For windows you will use the `run.bat` script, for unix use the `run.sh` script.
+A test match between 2 included test bots is preconfigured to run in the `matches` file.
 
-Before running the script, first:
-1. Download the [Sc2 AI Arena 2022 Season 1 maps](https://aiarena.net/wiki/184/plugin/attachments/download/9/) and place them in your system's StarCraft II maps folder.
-2. Check that the MAPS_PATH variable within the run script correctly points to your system's StarCraft II maps folder.  
+Before running the test match, first:
+1. Download the [Sc2 AI Arena 2022 Season 1 maps](https://aiarena.net/wiki/184/plugin/attachments/download/9/) and place them in your system's StarCraft II maps folder.  
+   If you don't have Starcraft II installed, create a maps folder somewhere to place them in.
+2. Check that the SC2 Maps Path setting in the docker-compose.yml file correctly points to the folder you placed the maps in.  
 
-Now you can run the script.
-The script should run a match between the 2 included test bots, as dictated by test match listed in the `matches` file.
+Now you can run the test match using `docker-compose up`.
 
 ## Running your own matches
 
