@@ -1,4 +1,6 @@
 #!/bin/bash
+# Use this script on Linux without Docker Compose.
+
 export MAPS_PATH=~/StarCraftII/maps
 
 docker run \
