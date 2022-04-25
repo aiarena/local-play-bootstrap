@@ -2,7 +2,7 @@
 
 ## What is this?
 This repo intends to be a pain-free method for SC2 AI bot authors to quickly setup and verify that the arena client docker works for running local bot matches on their system.  
-This system uses the same docker image that the [SC2 AI Arena ladder](https://aiarena.net) runs on.
+This system uses the same docker image that the [SC2 AI Arena ladder](https://sc2ai.net) runs on.
 
 ## Prerequisites
 
