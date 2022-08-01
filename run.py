@@ -8,7 +8,7 @@ from loguru import logger
 from collections import defaultdict
 from distutils.dir_util import copy_tree
 from multiprocessing.dummy import Pool as ThreadPool, current_process
-bot = ["basic_bot", "Z", "python"]
+bot = ["basic_bot", "T", "python"]
 
 opponents = [
     ["loser_bot", "T", "python"],
