@@ -26,7 +26,7 @@ We recommend against cloning this repo unless you intend to contribute changes.
 A test match between 2 included test bots is preconfigured to run in the `matches` file.
 
 Before running the test match, first:
-1. Download the [Sc2 AI Arena 2022 Season 1 maps](https://sc2ai.net/wiki/184/plugin/attachments/download/9/) and place them in your system's StarCraft II maps folder.  
+1. Download the [latest ladder maps](https://sc2ai.net//wiki/maps/#wiki-toc-current-map-pool) and place them in your system's StarCraft II maps folder.  
    If you don't have Starcraft II installed, create a maps folder somewhere to place them in.
 2. Check that the SC2 Maps Path setting in the docker-compose.yml file correctly points to the folder you placed the maps in.  
 
