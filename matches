@@ -1,2 +1,2 @@
 # Bot1 name, Bot1 race, Bot1 type, Bot2 name, Bot2 race, Bot2 type, Map
-basic_bot,T,python,loser_bot,T,python,2000AtmospheresAIE
+basic_bot,T,python,loser_bot,T,python,BerlingradAIE.SC2Map
