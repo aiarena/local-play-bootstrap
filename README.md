@@ -24,13 +24,6 @@ A test match between 2 included test bots along with the map BerlingradAIE is pr
 
 You can run the test match by executing `docker-compose up` in the base folder of this repo.
 
-After running the test match:
-1. Download the [latest ladder maps](https://sc2ai.net//wiki/maps/#wiki-toc-current-map-pool) and place them in your system's StarCraft II maps folder.  
-   If you don't have Starcraft II installed, create a maps folder somewhere to place them in.
-2. Check that the SC2 Maps Path setting in the docker-compose.yml file correctly points to the folder you placed the maps in.  
-
-Now you can run the test match using `docker-compose up`.
-
 ## Running your own matches
 
 1. Put your bots in the `./bots` folder.
