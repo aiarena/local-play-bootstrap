@@ -39,3 +39,4 @@ services:
       - "./matches:/app/matches"
       - "./config.toml:/app/config.toml"
       - "./results.json:/app/results.json"
+      - "./replays:/replays"
