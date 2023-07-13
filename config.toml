@@ -1,0 +1,41 @@
+ARENA_CLIENT_ID = "aiarenaclient_local"  # ID of arenaclient. Used for AiArena
+ROUNDS_PER_RUN = -1  # Set to -1 to ignore this
+BASE_WEBSITE_URL = ""
+DEBUG_MODE = true  # Enables debug mode for more logging
+PYTHON = "python"  # Which python version to use
+RUN_TYPE = "local"  # Run on AiArena, locally or test (options: "test", "local", "aiarena")
+# Secure mode will ignore the BOTS_DIRECTORY configuration setting and instead run each bot in their home directory.
+SECURE_MODE = false
+
+# LOGGING
+LOGGING_LEVEL = "debug" #info,debug,error,trace
+LOG_ROOT = "/logs"
+
+# Directories
+REPLAYS_DIRECTORY = "/replays"
+BOTS_DIRECTORY = "/bots"  # Ignored when SECURE_MODE == True
+
+# STARCRAFT
+MAX_GAME_TIME = 80640
+MAX_REAL_TIME = 7200  # 2 hours in seconds
+MAX_FRAME_TIME = 40 # milliseconds
+STRIKES = 10
+REALTIME = false
+VISUALIZE = false
+
+# MATCHES
+DISABLE_DEBUG = true
+VALIDATE_RACE = false
+
+
+# Local
+MATCHES_FILE="matches"
+RESULTS_FILE="results.json"
+
+# Controllers
+BOT_CONT_1_HOST="127.0.0.1"
+BOT_CONT_1_PORT=8081
+BOT_CONT_2_HOST="127.0.0.1"
+BOT_CONT_2_PORT=8082
+SC2_CONT_HOST="127.0.0.1"
+SC2_CONT_PORT=8083
