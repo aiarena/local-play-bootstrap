@@ -16,8 +16,6 @@ For other systems: [How to install Docker Compose](https://docs.docker.com/compo
 ### Download this repo
 ![Download this repo](img/download.png)
 
-We recommend against cloning this repo unless you intend to contribute changes.
-
 ### Validating your setup
 
 A test match between 2 included test bots along with the map BerlingradAIE is preconfigured to run in the `matches` file.
