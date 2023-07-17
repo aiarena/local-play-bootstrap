@@ -32,8 +32,10 @@ You can run the test match by executing `docker-compose up` in the base folder o
 4. View results in the `results.json` file and replays in the `replays` folder.
 
 ## Troubleshooting
-For troubleshooting, refer to the output of the `docker compose up` command.  
-You can also revisit the output of previous runs by running `docker compose logs`.
+All container and bot logs can be found in the `logs` folder.
+
+Docker container output can also be seen after running the `docker compose up` command.  
+You can also revisit the container output of previous runs by running `docker compose logs`.
 
 ## Use an alternative maps folder location
 It can sometimes be handy to have your maps in another location e.g. if you want to use the same maps folder as your StarCraft II installation.  
