@@ -1,5 +1,4 @@
 .idea/
 
-# files created by the arena client
 results
-client.log
+runners

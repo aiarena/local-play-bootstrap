@@ -31,6 +31,13 @@ You can run the test match by executing `docker-compose up` in the base folder o
 3. Run `docker compose up` to run the matches.
 4. View results in the `results.json` file and replays in the `replays` folder.
 
+### Multi-threaded matches
+
+Refer to [multithread-example.py](./multithread-example.py) for an example of how to run multiple matches in parallel.
+
+Not that there are aspects of bot games that would need more work to be thread safe, 
+such as bots which save data to their data folder.
+
 ## Troubleshooting
 All container and bot logs can be found in the `logs` folder.
 
