@@ -35,7 +35,7 @@ You can run the test match by executing `docker-compose up` in the base folder o
 
 Refer to [multithread-example.py](./multithread-example.py) for an example of how to run multiple matches in parallel.
 
-Not that there are aspects of bot games that would need more work to be thread safe, 
+Note that there are aspects of bot games that would need more work to be thread safe, 
 such as bots which save data to their data folder.
 
 ## Troubleshooting
