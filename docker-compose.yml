@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   sc2_controller:
-    image: aiarena/arenaclient-sc2:v0.4.3
+    image: aiarena/arenaclient-sc2:v0.5.3
     environment:
       - "ACSC2_PORT=8083"
       - "ACSC2_PROXY_HOST=proxy_controller"
@@ -14,7 +14,7 @@ services:
 #      - ~/StarCraftII/maps:/root/StarCraftII/maps                       # Relatively standard linux SC2 maps path
 
   bot_controller1:
-    image: aiarena/arenaclient-bot:v0.4.3
+    image: aiarena/arenaclient-bot:v0.5.3
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller1:/logs"
@@ -23,7 +23,7 @@ services:
       - "ACBOT_PROXY_HOST=proxy_controller"
 
   bot_controller2:
-    image: aiarena/arenaclient-bot:v0.4.3
+    image: aiarena/arenaclient-bot:v0.5.3
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller2:/logs"
@@ -32,7 +32,7 @@ services:
       - "ACBOT_PROXY_HOST=proxy_controller"
 
   proxy_controller:
-    image: aiarena/arenaclient-proxy:v0.4.3
+    image: aiarena/arenaclient-proxy:v0.5.3
     environment:
       - "ACPROXY_PORT=8080"
       - "ACPROXY_BOT_CONT_1_HOST=bot_controller1"
