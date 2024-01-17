@@ -2,7 +2,7 @@ version: "3.9"
 services:
   sc2_controller:
     network_mode: host
-    image: aiarena/arenaclient-sc2:v0.4.3
+    image: aiarena/arenaclient-sc2:v0.6.4
     environment:
       - "ACSC2_PORT=8083"
       - "ACSC2_PROXY_HOST=127.0.0.1"
@@ -16,7 +16,7 @@ services:
 
   bot_controller1:
     network_mode: host
-    image: aiarena/arenaclient-bot:v0.4.3
+    image: aiarena/arenaclient-bot:v0.6.4
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller1:/logs"
@@ -26,7 +26,7 @@ services:
 
   bot_controller2:
     network_mode: host
-    image: aiarena/arenaclient-bot:v0.4.3
+    image: aiarena/arenaclient-bot:v0.6.4
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller2:/logs"
@@ -36,7 +36,7 @@ services:
 
   proxy_controller:
     network_mode: host
-    image: aiarena/arenaclient-proxy:v0.4.3
+    image: aiarena/arenaclient-proxy:v0.6.4
     environment:
       - "ACPROXY_PORT=8080"
       - "ACPROXY_BOT_CONT_1_HOST=127.0.0.1"
