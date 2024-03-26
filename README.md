@@ -1,7 +1,7 @@
 # local-play-bootstrap
 
 ## What is this?
-This repo intends to be a pain-free method for SC2 AI bot authors to quickly setup and run local bot matches on their system, using the same set of docker images that the [SC2 AI Arena ladder](https://sc2ai.net) runs on.
+This repo intends to be a pain-free method for SC2 AI bot authors to quickly setup and run local bot matches on their system, using the same set of docker images that the [AI Arena ladder](https://aiarena.net) runs on.
 
 ## Prerequisites
 
