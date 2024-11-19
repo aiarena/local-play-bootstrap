@@ -25,7 +25,7 @@ You can run the test match by executing `docker-compose up` in the base folder o
 ## Running your own matches
 
 1. Put your bots in the `./bots` folder.
-2. Download the [latest ladder maps](https://sc2ai.net//wiki/maps/#wiki-toc-current-map-pool) and place them in this repo's local `./maps` folder.  
+2. Download the [latest ladder maps](https://aiarena.net//wiki/maps/#wiki-toc-current-map-pool) and place them in this repo's local `./maps` folder.  
    See [Use an alternative maps folder location](#use-an-alternative-maps-folder-location) if you want to use a different maps folder.
 2. Add the relevant entries for matches you wish to play to the `matches` file.
 3. Run `docker compose up` to run the matches.
