@@ -39,12 +39,17 @@ Note that there are aspects of bot games that would need more work to be thread 
 such as bots which save data to their data folder.
 
 ## Troubleshooting
+
+### Tips
+
 All container and bot logs can be found in the `logs` folder.
 
 Docker container output can also be seen after running the `docker compose up` command.  
 You can also revisit the container output of previous runs by running `docker compose logs`.
 
-### Bots connecting to localhost using default `docker compose up` command
+### Specific scenarios
+
+#### Bots connecting to localhost using default `docker compose up` command
 If you encounter an error message resembling the following:
 ```
 2023-08-01T20:25:25.407722Z ERROR common/src/api/api_reference/mod.rs:228: ResponseError(ResponseContent { status: 400, api_error_message: ApiErrorMessage { error: "Could not find port for started process" } })
