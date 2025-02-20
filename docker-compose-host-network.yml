@@ -1,8 +1,7 @@
-version: "3.9"
 services:
   sc2_controller:
     network_mode: host
-    image: aiarena/arenaclient-sc2:v0.6.4
+    image: aiarena/arenaclient-sc2:v0.6.10
     environment:
       - "ACSC2_PORT=8083"
       - "ACSC2_PROXY_HOST=127.0.0.1"
@@ -10,13 +9,13 @@ services:
       - "./logs:/logs" # a sc2_controller folder will be created in the logs folder
       # SC2 Maps Path
       # Set this as "- PATH_TO_YOUR_MAPS_FOLDER:/root/StarCraftII/maps"
-      - C:\Program Files (x86)\StarCraft II\Maps:/root/StarCraftII/maps # Standard windows SC2 maps path
-#      - ./maps:/root/StarCraftII/maps                                   # Local maps folder
+#      - C:\Program Files (x86)\StarCraft II\Maps:/root/StarCraftII/maps # Standard windows SC2 maps path
+      - ./maps:/root/StarCraftII/maps                                   # Local maps folder
 #      - ~/StarCraftII/maps:/root/StarCraftII/maps                       # Relatively standard linux SC2 maps path
 
   bot_controller1:
     network_mode: host
-    image: aiarena/arenaclient-bot:v0.6.4
+    image: aiarena/arenaclient-bot:v0.6.10
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller1:/logs"
@@ -26,7 +25,7 @@ services:
 
   bot_controller2:
     network_mode: host
-    image: aiarena/arenaclient-bot:v0.6.4
+    image: aiarena/arenaclient-bot:v0.6.10
     volumes:
       - "./bots:/bots"
       - "./logs/bot_controller2:/logs"
@@ -36,7 +35,7 @@ services:
 
   proxy_controller:
     network_mode: host
-    image: aiarena/arenaclient-proxy:v0.6.4
+    image: aiarena/arenaclient-proxy:v0.6.10
     environment:
       - "ACPROXY_PORT=8080"
       - "ACPROXY_BOT_CONT_1_HOST=127.0.0.1"
