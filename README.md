@@ -18,7 +18,7 @@ For other systems: [How to install Docker Compose](https://docs.docker.com/compo
 
 ### Validating your setup
 
-A test match between 2 included test bots along with the map BerlingradAIE is preconfigured to run in the `matches` file.
+A test match between 2 included test bots along with the map AcropolisAIE is preconfigured to run in the `matches` file.
 
 You can run the test match by executing `docker-compose up` in the base folder of this repo.
 
