@@ -1,0 +1,12 @@
+# Apple Silicon override: lets StarCraft II run under Rosetta instead of QEMU.
+#
+#   ./apple-silicon/build.sh
+#   docker compose -f docker-compose.yml -f docker-compose-apple-silicon.yml up
+#
+# See "Apple Silicon (M1/M2/M3/M4) Macs" in README.md.
+services:
+  sc2_controller:
+    environment:
+      - "LD_PRELOAD=/opt/alignmutex/alignmutex.so"
+    volumes:
+      - "./apple-silicon:/opt/alignmutex:ro"
